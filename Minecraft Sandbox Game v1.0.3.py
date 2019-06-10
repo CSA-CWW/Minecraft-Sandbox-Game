@@ -499,7 +499,6 @@ def pos_chunk_function_game():
     pos_round_x = (int(player_value.x / 32) * 32)
     pos_round_y = (int(player_value.y / 32) * 32)
 
-    print (pos_chunk_y2)
     if player_value.x - pos_round_x < 16:
         pos_chunk_x2 = int((player_value2.x-32) / 672)
 
